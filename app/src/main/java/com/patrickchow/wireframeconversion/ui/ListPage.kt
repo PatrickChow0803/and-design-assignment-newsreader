@@ -17,31 +17,31 @@ class ListPage : AppCompatActivity() {
 
         image_first.setOnClickListener{
             val firstIntent = Intent(this, Detail_Page::class.java)
-            firstIntent.putExtra("key1", R.drawable.image1)
+            firstIntent.putExtra("key", R.drawable.image1)
             startActivity(firstIntent)
         }
 
         image_second.setOnClickListener{
             val secondIntent = Intent(this, Detail_Page::class.java)
-            secondIntent.putExtra("key1", R.drawable.image2)
+            secondIntent.putExtra("key", R.drawable.image2)
             startActivity(secondIntent)
         }
 
-        image_first.setOnClickListener{
+        image_third.setOnClickListener{
             val thirdIntent = Intent(this, Detail_Page::class.java)
-            thirdIntent.putExtra("key1", R.drawable.image3)
+            thirdIntent.putExtra("key", R.drawable.image3)
             startActivity(thirdIntent)
         }
 
-        image_first.setOnClickListener{
+        image_fourth.setOnClickListener{
             val fourthIntent = Intent(this, Detail_Page::class.java)
-            fourthIntent.putExtra("key1", R.drawable.image4)
+            fourthIntent.putExtra("key", R.drawable.image4)
             startActivity(fourthIntent)
         }
 
-        image_first.setOnClickListener{
+        image_fifth.setOnClickListener{
             val fifthIntent = Intent(this, Detail_Page::class.java)
-            fifthIntent.putExtra("key1", R.drawable.image5)
+            fifthIntent.putExtra("key", R.drawable.image5)
             startActivity(fifthIntent)
         }
 
